@@ -1,5 +1,18 @@
-h1 {
+body {
+    background-color: #f3f4f5;
+}
 
-    color: red;
+
+h1 {
+    color: black;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+
+    color: #757575;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
