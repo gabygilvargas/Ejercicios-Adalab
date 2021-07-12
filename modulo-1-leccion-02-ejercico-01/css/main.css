@@ -17,12 +17,18 @@ table {
     background-color:cyan;
     text-align: center;
     width: 100%;
+    border-collapse: collapse;  /*para quitarle los bordes de cada celda*/
+
     
 }
 
 th, td { 
 
-    border: solid 10px black;
+    border: solid 10px white;
     padding: 20px;  
 
+}
+
+thead{
+    background-color:darkgray;
 }
