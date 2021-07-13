@@ -1,0 +1,26 @@
+span,
+.info {
+  background-color: cyan;
+}
+
+.block {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: darkgreen;
+  margin: 20px;
+}
+
+.inline {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: grey;
+}
