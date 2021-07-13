@@ -24,3 +24,10 @@ span,
   height: 100px;
   background: grey;
 }
+
+.none {
+  display: none;
+  width: 100px;
+  height: 100px;
+  background: hotpink;
+}
