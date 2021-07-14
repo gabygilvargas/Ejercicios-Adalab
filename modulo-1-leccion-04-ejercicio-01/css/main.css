@@ -1,0 +1,19 @@
+.flex-contenedor {
+  display: flex;
+  flex-direction: column;
+
+  background-color: slategrey;
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  padding: 5px; /* padin entre divs y borde de contenedor*/
+}
+
+.flex-contenedor_div {
+  box-sizing: border-box;
+  border: 2px solid blue;
+  margin: 5px; /* margen entre divs*/
+  text-align: center; /*centramos el texto*/
+}
+
+/*eje principal es COLUMN*/
