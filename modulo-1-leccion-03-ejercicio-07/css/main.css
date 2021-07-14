@@ -19,11 +19,11 @@ body {
   border-left: 3px solid #f93af9;
   background-color: #f3f3f3;
 
-  display: inline;
+  display: inline; /*no pasa nada al descomentar porque no hay codigo que afecte*/
 
-  display: inline-block;
+  display: inline-block; /*no pasa nada al descomentar porque no hay codigo que afecte*/
 
-  text-align: center;
+  text-align: center; /*esta propiedad si estaba comentada por lo que si se le quita el comentario se activa y el texto se centra*/
 }
 
 .user-info * {
@@ -44,8 +44,8 @@ body {
   text-decoration: none;
   font-weight: bold;
 
-  overflow-x: scroll;
+  overflow-x: scroll; /*activamos el scroo de overflow de horizontal y se oculta desbordamiento y para verlo hay q gacer escrooll en juan redondo */
 
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow: hidden; /*oculta el testo q desborda*/
+  text-overflow: ellipsis; /*muestra .. al texto cortado, oculto o desbordado*/
 }
