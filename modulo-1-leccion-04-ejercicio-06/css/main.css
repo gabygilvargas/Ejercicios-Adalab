@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+   border: solid black;
+
+}
+*.{
+  padding: 0;
+}
+
+body {
+  background-color:blanchedalmond;
+  min-height: 100%;
+}
+
+.cabecera{
+  background-color:red;
+}
+
+.main{
+  
+}
+
+.contenido-main {
+  display: flex;
+  flex-direction: colum; /*esta colocacion es por defecto asi q bien si no esta*/
+  background-color: rgb(241, 129, 129);
+  justify-content: space-between;
+  
+  height: 500px;
+  border: 2px solid black;
+  align-items: :left;
+}
+
+.main-aside1 {
+  width: 20%;
+  box-sizing: border-box;
+  flex-grow: 1;
+   text-align: center ; /*centramos el texto*/
+   background-color: slategrey;
+  }
+
+.parrafo {
+  align-items: center;
+  flex-grow: 5;
+  background-color: thistle;
+
+}
+.main-aside2 {
+  width: 20%;
+  box-sizing: border-box;
+  flex-grow: 1;
+  text-align: center ; /*centramos el texto*/
+  background-color: slategrey;
+}
+
+.footer {
+  background-color:royalblue;
+  height: 40px;
+}
+
+/*---------------------------------------------------------*/
+.contenedor {
+  display: flex;
+  flex-direction: row; /*esta colocacion es por defecto asi q bien si no esta*/
+  background-color: slategrey;
+  justify-content: space-around;
+  width: 90%;
+  border: 4px solid black;
+  padding: 10px; /* padin entre divs y borde de contenedor*/
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-item {
+  box-sizing: border-box;
+  width: 40%;
+  background-color: red;
+  border: 2px solid black;
+  margin: 5px; /* margen entre divs*/
+  text-align: left; /*centramos el texto*/
+  padding: 10px;
+}
+
+.imagen-item {
+  width: 100%;
+  min-width; 90%;
+  max-height: 250px;
+}
+
+.contenedor-item-destacado {
+  width: 90%;
+  box-sizing: border-box;
+  background-color: red;
+  border: 2px solid black;
+  margin: 5px; /* margen entre divs*/
+  text-align: left; /*centramos el texto*/
+  padding: 10px;
+  order: -1;
+}
