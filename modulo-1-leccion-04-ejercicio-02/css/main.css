@@ -1,5 +1,6 @@
 .flex-contenedor {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 
   background-color: slategrey;
