@@ -1,0 +1,18 @@
+.menu--container {
+  display: flex;
+  background-color: slategrey;
+  border: 4px solid black;
+  height: 100px;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.container_flex {
+  width: 150px;
+  height: 50px;
+  margin: 5px; /* margen entre divs*/
+  text-align: center; /*centramos el texto*/
+  list-style: none; /*quitar punto a la lista*/
+  font-size: 20px;
+}
