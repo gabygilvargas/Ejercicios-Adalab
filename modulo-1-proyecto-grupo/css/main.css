@@ -9,17 +9,33 @@ body {
   width: 100%;
 }
 
-.menu-iconos {
+*.menu-iconos {
   padding: 5px;
   width: auto;
   height: 50px;
   transform: skew(0.05);
 }
 
-.zona-azul {
+/*******************************************seccion equipo*******/
+.equipo {
+  background-color: deepskyblue;
+  margin-top: 20px;
+}
+
+.titulo-equipo {
+}
+
+/*************************************************seccion de fortalezas y debilidades******/
+.titulo-fortalezas {
+}
+
+.fortalezas-debilidades {
   background-color: deepskyblue;
   margin-top: 20px;
   height: 50vh;
+}
+
+.titulo-fortalezas {
 }
 
 .footer {
