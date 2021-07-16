@@ -1,0 +1,12 @@
+.menu-principal {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.menu-iconos {
+  padding: 5px;
+  width: auto;
+  height: 50px;
+  transform: skew(0.05);
+}
