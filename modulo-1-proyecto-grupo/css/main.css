@@ -1,31 +1,27 @@
 /*******************************************seccion equipo*******/
-main{
-  
+main {
 }
 
-
-
 .equipo {
-  background-color:white;
-  font-family: Arial, Helvetica, sans-serif;
+  /*seccion padre de equipo*/
+  background-color: turquoise;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   width: 320px;
   height: 504px;
   padding: 30px 15px;
   text-align: center;
-  
+  box-sizing: border-box; /*todo lo que este dentro de la caja se adalte a este tamaño*/
+  position: relative;
 }
 
 .titulo-equipo {
   color: aqua;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif /* no hay letra RUBIK*/
-  
-  font-family:rubi
-
+  font-family: Arial, Helvetica, sans-serif; /* no hay letra RUBIK no me deja escoger font-family: rubik;*/
   font-size: 24px;
-  font-weight: 500;
-  margin: 30px;
-  line-height: 1.88;
+  font-weight: 600; /*para el ancho de la letra a 600 mas negrita*/
   text-transform: uppercase;
+  margin: 0px 30px 15px;
 }
 
 .parrafo-equipo {
@@ -33,7 +29,7 @@ main{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
-  margin: 15px;
+  line-height: 1.5; /*para que las letras esten mas juntas*/
 }
 
 .cuadrado {
@@ -42,35 +38,39 @@ main{
   height: 30px;
   z-index: 990;
   position: absolute;
-  left: 140px;;
-  top: 550px;
-  
- 
+  left: 50%;
+  bottom: -15px;
   transform: rotate(45deg);
 }
 
 /*************************************************seccion de fortalezas y debilidades******/
 
 .fortalezas-debilidades {
+  /* seccion padre fortalezas y debilidades*/
   background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
   width: 320px;
-  height: 504px;
+  height: 650px;
   padding: 30px 15px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .titulo-fortalezas {
+  width: 290px;
+  height: 45px;
+
   color: #099d8d;
-  font-family: rubik; /* no hay letra RUBIK*/
+  font-family: Arial, Helvetica, sans-serif; /* no hay letra RUBIK*/
   font-size: 22px;
-  font-weight: 500;
-  margin: 30px;
-  line-height: 1.88;
+  font-weight: 600;
 }
 
-/*---------------------------------section footer................*/
-.footer {
-  background-color: black;
-  color: white;
+.parrafo-fortaleza-debilidades {
+  color: #54585a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5; /*para que las letras esten mas juntas*/
+  padding-bottom: 30px;
 }
