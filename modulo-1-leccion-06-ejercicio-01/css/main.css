@@ -1,0 +1,26 @@
+html {
+  font-size: 16px;
+}
+.smiley {
+  display: flex; /*para llamar a las prop flex*/
+  width: 12.5rem; /*partimo q mide 100px q es = 3.125rem y luego */
+  height: 12.5rem;
+  line-height: 6.25rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 12.5rem;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  justify-content: center; /*centramos contenido*/
+  align-items: center; /*centramos elementos*/
+}
+
+/*para que mida 50*50 : hay q poner width: 3.125rem;
+  height: 3.125rem; */
+/*para que mida 200*200*/
