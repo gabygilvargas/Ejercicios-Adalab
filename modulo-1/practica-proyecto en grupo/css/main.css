@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.menu-iconos {
+  padding: 5px;
+  width: auto;
+  height: 50px;
+  transform: skew(0.05);
+}
+
+.zona-azul {
+  background-color: deepskyblue;
+  margin-top: 20px;
+  position: relative;
+  top: 65px;
+  margin: 0%;
+}
+
+.parrafo-zona-azul {
+  color: black;
+}
+/*****************************************equipo -- fortaleza y debilidades************************/
+.equipo {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  top: 50px;
+  margin: 0%;
+  padding: 30px 15px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.equipo-titulo {
+  color: #14d9c4;
+  font-family: Arial, Helvetica, sans-serif; /*no me carga rubik*/
+  height: 45px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.equipo-parrafo {
+  color: #54585a;
+  font-family: Open Sans; /*su letra es open sans*/
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.cuadrado {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  z-index: 990;
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: rotate(45deg);
+}
+/************************************fortaleza y debilidades ***************/
+
+.fortalezas-debilidades {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  position: relative;
+  top: 50px;
+  margin: 0%;
+  padding: 45px 15px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.fortalezas-titulo {
+  font-family: Arial, Helvetica, sans-serif; /*no me carga rubik*/
+  color: #099d8d;
+  height: 45px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fortalezas-debilidades-parrafo {
+  color: #54585a;
+  font-family: open sans;
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.debilidades-titulo {
+  color: #099d8d;
+  font-family: Arial, Helvetica, sans-serif; /*no me carga rubik*/
+  height: 45px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 45px;
+}
+
+.frase-presentacion {
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: open sans;
+  z-index: 999;
+  line-height: 1.5;
+  position: relative;
+  bottom: 50px;
+  margin: 0%;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+
+  top: 50px;
+  margin: 0%;
+}
