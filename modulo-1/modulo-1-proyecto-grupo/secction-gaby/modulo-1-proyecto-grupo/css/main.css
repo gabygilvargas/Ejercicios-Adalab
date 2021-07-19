@@ -1,3 +1,7 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  /*font-family: 'Rubik', sans-serif;*/
+}
 body {
   margin: 0;
 }
@@ -7,7 +11,6 @@ body {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  z-index: 999;
 }
 
 .menu-iconos {
@@ -15,6 +18,10 @@ body {
   width: auto;
   height: 50px;
   transform: skew(0.05);
+}
+.hero {
+  background-image: url(../images/premium_dancer.png);
+  background-repeat: no-repeat;
 }
 
 .zona-azul {
@@ -28,6 +35,11 @@ body {
 .parrafo-zona-azul {
   color: black;
 }
+
+.imagen {
+  width: 100%;
+}
+
 /*****************************************equipo -- fortaleza y debilidades************************/
 .equipo {
   display: flex;
@@ -44,7 +56,7 @@ body {
 
 .equipo-titulo {
   color: #14d9c4;
-  font-family: Arial, Helvetica, sans-serif; /*no me carga rubik*/
+  font-family: rubik;
   height: 45px;
   font-size: 24px;
   font-weight: 600;
@@ -52,7 +64,7 @@ body {
 
 .equipo-parrafo {
   color: #54585a;
-  font-family: Open Sans; /*su letra es open sans*/
+  font-family: Open Sans;
   line-height: 1.5;
   font-size: 16px;
   padding: 5px;
@@ -84,7 +96,7 @@ body {
 }
 
 .fortalezas-titulo {
-  font-family: Arial, Helvetica, sans-serif; /*no me carga rubik*/
+  font-family: rubik;
   color: #099d8d;
   height: 45px;
   font-size: 24px;
@@ -101,12 +113,13 @@ body {
 
 .debilidades-titulo {
   color: #099d8d;
-  font-family: Arial, Helvetica, sans-serif; /*no me carga rubik*/
+  font-family: rubik;
   height: 45px;
   font-size: 24px;
   font-weight: 600;
   margin-top: 45px;
 }
+/*************************************************************fin de equipo fortaleza y debilidades seccion gaby***************/
 
 .frase-presentacion {
   color: black;
