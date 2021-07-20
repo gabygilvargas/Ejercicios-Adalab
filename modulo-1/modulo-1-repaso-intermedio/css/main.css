@@ -1,3 +1,137 @@
+:root {
+  --colorletra: #cc212a;
+}
+
+* {
+}
 html {
   font-family: "Montserrat", sans-serif;
+}
+
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  width: 100vw; /*todo el ancho de la pantalla*/
+  height: 100vh; /*todo el alto de la pantalla*/
+  background-color: aquamarine;
+  text-align: center; /*alineamos los hijos dentro del contenedor*/
+  justify-content: center;
+  color: var(--colorletra);
+}
+
+.cuerpo-color {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.cuerpo-frase {
+  font-size: 30px;
+  font-weight: 800;
+}
+.footer1 {
+  border-top: solid 2px var(--colorletra); /*pintar una linea solo arriba*/
+  position: fixed;
+  bottom: 0;
+  width: 100vw; /*toda ancho de la pantalla*/
+  height: 80px;
+  justify-content: center;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 3px red;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 30px; /* ledamos paddign al footer por abajo para q se haga mas grande*/
+}
+
+.redondo1 {
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 15px;
+  background-color: var(--colorletra);
+  border-radius: 50%; /*50% de su contenedor , tambien podria coger la mitad de width y heigth*/
+  color: white;
+  position: fixed;
+  bottom: 60px;
+  right: 48%;
+  font-weight: 800;
+}
+
+.redondo {
+  left: 50px;
+  width: 50px;
+  line-height: 50px;
+  background-color: var(--colorletra);
+  border-radius: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+}
+.copy1 {
+  position: fixed;
+  bottom: 10px;
+  right: 47%;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.copy {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* hacerlo responsive para table y desktop**/
+
+@media screen and (min-width: 786px) {
+  .footer {
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  .redondo {
+    order: 1; /*le ponemos el primero*/
+    transform: none; /*le quitas el movimiento de tamaño movil*/
+  }
+}
+
+@media1 all and (min-width: 768px) {
+  .footer {
+    background-color: bisque;
+    flex-direction: row;
+    width: 99.7vw;
+    border: solid 2px blue;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .redondo {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    background-color: var(--colorletra);
+    border-radius: 50%; /*50% de su contenedor , tambien podria coger la mitad de width y heigth*/
+    font-weight: 800;
+    position: static;
+    order: 1;
+  }
+  .copy {
+    position: static;
+    bottom: 10px;
+    font-size: 15px;
+    padding: 20px;
+  }
 }
