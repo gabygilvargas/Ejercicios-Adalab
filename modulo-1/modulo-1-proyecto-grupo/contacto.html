@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" class="css" />
+    <link rel="stylesheet" href="./styles/main.css" class="css" />
+  </head>
+
+  <body>
+    <!--SECCION HEADER-->
+    <header class="header__contacto">
+      <h1>nombre del grupo</h1>
+
+      <nav>menu</nav>
+
+      <img
+        class="header__contacto--imagen"
+        src="./images/imagen-temporal.jpg"
+        alt="imagen de pantalla"
+      />
+    </header>
+
+    <main>
+      <!--SECCION CONTACTO-->
+      <section>
+        <h1>Contacto</h1>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+          rem, voluptatem nulla consectetur aperiam est eum ea sit
+          exercitationem ratione deleniti magnam. Totam beatae consequatur saepe
+          reprehenderit, magnam modi soluta.
+        </p>
+        <p>Todos los campos marcados con * son obligatorios</p>
+      </section>
+
+      <!--SECCION FORMULARIO-->
+      <form action="/signup" method="post">
+        <fieldset class="formulario">
+          <!--Nombre completo-->
+          <label for="fullName">Nombre completo</label>
+          <input
+            class="formulario__items"
+            placeholder="Nombre..."
+            type="text"
+            id="fullName"
+            name="fullName"
+          />
+
+          <!--correo-->
+          <label for="emailAddress">Email</label>
+          <input
+            class="formulario__items"
+            placeholder="nombre@gmail.com"
+            type="email"
+            id="emailAddress"
+            name="emailAddress"
+          />
+          <!--telefono-->
+          <label for="telephone">Teléfono</label>
+          <input
+            class="formulario__items"
+            placeholder="Ej. 123456789"
+            type="tel"
+            id="telephone"
+            name="telephone"
+          />
+
+          <!--mensaje-->
+          <label for="comments">Comentarios:</label>
+          <textarea
+            class="formulario__items"
+            placeholder="Qué necesitas?"
+            id="comments"
+            name="comments"
+            rows="8"
+            cols="80"
+          ></textarea>
+
+          <input type="submit" value="Enviar" />
+          <!--boton-->
+        </fieldset>
+      </form>
+      <!--SECCION FOOTER-->
+      <footer>footer</footer>
+    </main>
+  </body>
+</html>

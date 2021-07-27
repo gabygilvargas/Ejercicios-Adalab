@@ -1,0 +1,126 @@
+*{ 
+  padding; 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  border: solid 2px black;
+ 
+}
+
+main{
+
+  width: 700px;
+  height: 800px;
+
+}
+.contenedor-articulos {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+
+}
+
+.noticia {
+  border: solid 2px blue;
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+  
+}
+ 
+
+.articulos0 {
+  width: 500px;
+  height: 150px;
+
+}
+
+.imagen0 {
+  width: 100%;
+  
+}
+
+.imagen1{
+ 
+  object-fit: fill;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************/
+
+
+
+
+.contenedor {
+  display: flex;
+  flex-direction: row; /*esta colocacion es por defecto asi q bien si no esta*/
+  background-color: slategrey;
+  justify-content: space-around;
+  width: 90%;
+  border: 4px solid black;
+  padding: 10px; /* padin entre divs y borde de contenedor*/
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-item {
+  box-sizing: border-box;
+  width: 40%;
+  background-color: red;
+  border: 2px solid black;
+  margin: 5px; /* margen entre divs*/
+  text-align: left; /*centramos el texto*/
+  padding: 10px;
+}
+
+.imagen-item {
+  width: 100%;
+  min-width; 90%;
+  max-height: 250px;
+}
+
+.contenedor-item-destacado {
+  width: 90%;
+  box-sizing: border-box;
+  background-color: red;
+  border: 2px solid black;
+  margin: 5px; /* margen entre divs*/
+  text-align: left; /*centramos el texto*/
+  padding: 10px;
+  order: -1;
+}

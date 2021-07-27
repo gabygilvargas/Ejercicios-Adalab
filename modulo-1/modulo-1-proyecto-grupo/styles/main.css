@@ -295,3 +295,26 @@ h3 {
   margin-top: 30px;
   margin-bottom: 45px;
 }
+
+/**************************************************formulario.******/
+
+.formulario {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.header__contacto {
+}
+
+.header__contacto--imagen {
+  width: 200px;
+  height: 200px;
+}
+
+.formulario__items {
+  margin: 10px;
+  height: 25px;
+}
