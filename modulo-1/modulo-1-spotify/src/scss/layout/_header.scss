@@ -1,5 +1,17 @@
-.page__header {
+.header {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  background-color: black;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.menu-iconos {
+  padding: 5px;
+  width: auto;
+  height: 50px;
+  transform: skew(0.05);
+}
+.menu-navegacion {
+ 
 }

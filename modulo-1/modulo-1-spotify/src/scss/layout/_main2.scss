@@ -1,0 +1,76 @@
+.zona-azul {
+  background-color: deepskyblue;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  
+}
+
+.zona-azul__item{
+  margin-bottom: 20px;
+}
+.zona-azul__prueba-premium {
+  border: solid 2px black;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  max-width: 60%;
+  text-align: center;
+  justify-content: center;
+
+  margin: 0 30% 20px 30%;
+  
+}
+
+.zona-azul__frase {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.contenedor-button {
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.zona-azul__buttonplanes {
+  border: solid 2px yellow;
+  width: 90%;
+  height: 50px;
+  background-color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 40px 10px 40px;
+  padding-bottom: 10px;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.zona-azul__buttonempezar {
+  border: solid 2px yellow;
+  width: 90%;
+  height: 50px;
+  background-color: deepskyblue;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 40px 10px 40px;
+  padding-bottom: 10px;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-radius: 10px;
+
+    &:hover {
+      background-color:rgba(120, 196, 221, 0.658);
+    }
+}
