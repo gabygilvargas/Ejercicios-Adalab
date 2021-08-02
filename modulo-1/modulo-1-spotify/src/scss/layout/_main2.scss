@@ -1,76 +1,202 @@
 .zona-azul {
   background-color: deepskyblue;
-  height: 50vh;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding: 20px;
+  padding: 100px 20px 20px 20px;
   color: white;
-  
+  position: relative;
+
+  @media (min-width:768px) {
+    padding-left:100px;
+    padding-right: 100px;
+  }
+    
 }
 
 .zona-azul__item{
   margin-bottom: 20px;
-}
-.zona-azul__prueba-premium {
-  border: solid 2px black;
-  font-weight: bold;
-  font-size: 25px;
-  padding: 10px;
-  max-width: 60%;
-  text-align: center;
-  justify-content: center;
 
-  margin: 0 30% 20px 30%;
+  @media (min-width:768px) {
+    margin-bottom: 40px;
+    
+  }
+}
+
+.zona-azul__prueba-premium {
+ 
+  font-weight: bold;
+  font-size: 40px;
+  text-align:left;
+  justify-content: center;
+  padding: 5px;
+ 
   
 }
 
 .zona-azul__frase {
-  font-size: 18px;
+  
+  font-size: 20px;
   font-weight: bold;
+  text-align:left;
+  padding: 5px;
 
 }
 
 .contenedor-button {
-  border: solid 2px black;
+ 
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0px 10px 0px 10px;
+
+    @media (min-width:768px) {
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-start; 
+     
+
+    }
 
 }
 
 .zona-azul__buttonplanes {
-  border: solid 2px yellow;
-  width: 90%;
+  
+  width: 100%;
   height: 50px;
   background-color: black;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: bold;
   padding: 10px 40px 10px 40px;
   padding-bottom: 10px;
   color: white;
   text-transform: capitalize;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 20px;
+
+  @media (min-width:768px) {
+    width: 25%;
+    font-size: 17px;
+    padding: auto;
+    align-items: center;
+    margin-right: 10px;
+         
+  }
 }
 
 .zona-azul__buttonempezar {
-  border: solid 2px yellow;
-  width: 90%;
+ 
+  width: 100%;
   height: 50px;
   background-color: deepskyblue;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: bold;
   padding: 10px 40px 10px 40px;
   padding-bottom: 10px;
   color: white;
   text-transform: capitalize;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 20px;
 
     &:hover {
       background-color:rgba(120, 196, 221, 0.658);
     }
+
+    @media (min-width:768px) {
+      width: 25%;
+      font-size: 17px;
+      padding: auto;
+      align-items: center;
+           
+    }
 }
+
+.zona-azul__terminos {
+  
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
+
+}
+
+/******************************zona blanca**************/
+
+.zona-blanca {
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 35px 15px;
+   
+    @media (min-width: 768px) {
+      margin: 0px 100px 0 100px;
+      padding-top: 75px;
+    }
+
+  
+}
+.zona-blanca__title {
+  
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+    @media (min-width: 768px) {
+      padding-bottom: 50px;
+      font-size: 40px;
+    }
+  
+}
+
+.contenedor-articles {
+  
+  grid-template-columns: 1fr;
+  display:grid;
+  align-items: center;
+  row-gap: 10px;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 50% 50%;
+      
+    }
+ 
+}
+
+
+.opciones {
+ 
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+   
+    h3 {
+     font-size: 25px;
+     margin-bottom: 15px;
+     padding-left: 10px;
+    } 
+
+    p {
+      font-size: 16px;
+      padding-left: 10px;
+    }
+}
+
+.opciones__logo {
+    padding: 5px;
+    margin: 0px 10px 0px 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.logo1 {
+  width: 100%;
+}
+
+
+
+    
