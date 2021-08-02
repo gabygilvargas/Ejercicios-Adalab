@@ -12,6 +12,8 @@
     padding-left:100px;
     padding-right: 100px;
   }
+
+  
     
 }
 
@@ -133,6 +135,11 @@
    
     @media (min-width: 768px) {
       margin: 0px 100px 0 100px;
+      padding-top: 75px;
+    }
+
+    @media (min-width: 1200px) {
+      margin: 0px 100px 130px 100px;
       padding-top: 75px;
     }
   
