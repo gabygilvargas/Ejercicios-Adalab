@@ -4,65 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+   
     <link rel="stylesheet" href="./assets/css/main.css" />
+ 
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+    
+    <header class="header">
+      <img class="menu-iconos" src="../assets/images/logo.png" alt="logo" />
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
+      <nav class="menu-navegacion">
+        <img class="menu-iconos" src="../assets/images/menu-icon.png" title="menu"alt="logo" />
+
+      <!--
+        <a href="">Premium</a>
+        <a href="">Ayuda</a>
+        <a href="">Descarga |</a>
+        <a href="">Registrate</a>
+        <a href="">Iniciar Sesion</a>
+      </nav>
+      -->
+
+    </header>
+
+    
+    <main>
+        <section class="zona-azul">
+
+          <h1 class="zona-azul__prueba-premium zona-azul__item">Prueba Premium gratis 6 meses</h1>
+
+          <p class="zona-azul__frase zona-azul__item">
+            Escucha millones de canciones sin anuncios, a la carta y sin conexión
+          </p>
+
+          <div class="contenedor-button">
+              <a href="https://adalab.es/" title="ir a adalab" class="zona-azul__item zona-azul__buttonplanes">Ver Planes</a>
+              <a href="https://adalab.es/" title="ir a adalab" class="zona-azul__item zona-azul__buttonempezar">Empezar</a>
+          </div>
+
+
+          <small class=" zona-azul__terminos zona-azul__item">
+            <!--small poca relevancia-->
+            Rigen términos y condiciones. Los tres meses gratis no están
+            disponibles para usuarios que ya hayan probado Premium. Ver planes
+            Rigen términos y condiciones. Los tres meses gratis no están
+            disponibles para usuarios que ya hayan probado Premium.
+          </small>
+        </section>
+
+
+
+      <!--inicio zona blanca-->  
+        <section class="zona-blanca">
+
+          <h2 class="zona-blanca__title">¿Por qué pasarte a Premium?</h2>
+
+          <div class="contenedor-articles">
+
+              <article class="opciones">
+                <div class="opciones__logo">
+                  <img class="logo1" src="../assets/images/benefit-1.png" alt="logo" />
+                </div>
+
+                <div >
+                  <h3>Descarga música.</h3>
+                  <p>Llévala siempre contigo.</p>
+                </div>
+
+              </article>
+
+              <article class="opciones">
+                <div class="opciones__logo">
+                  <img class="logo1" src="../assets/images/benefit-2.png" alt="logo-musica" />
+                </div>
+                <div>
+                  <h3>Sin anuncios.</h3>
+                  <p>Disfruta de la música sin interrupcioness.</p>
+                </div>
+
+              </article>
+
+              <article class="opciones">
+                <div class="opciones__logo">
+                  <img class="logo1" src="../assets/images/benefit-3.png" alt="logo telefono" />
+                </div>
+
+                <div>
+                  <h3>Escucha lo que quieras.</h3>
+                  <p>Incluso en el móvil.</p>
+                </div>
+              </article>
+
+              <article class="opciones">
+                <div class="opciones__logo">
+                  <img class="logo1" src="../assets/images/benefit-4.png" alt="logo telefono" />
+                </div>
+
+                <div>
+                  <h3>Salta todas las canciones que quieras.</h3>
+                  <p>Simplemente dale a siguiente.</p>
+                </div>
+
+
+              </article>
+          </div> 
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <ul>
+          <li>Legal</li>
+          <li>Cookies</li>
+          <li>Información sobre los anuncios</li>
         </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <p>España <img src="" alt="" /></p>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
+        <p>@copy; 2021 Spotify Adalab</p>
       </footer>
 
-    </div>
+
+
+      
+  
+    
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
